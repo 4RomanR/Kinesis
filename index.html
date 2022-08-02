@@ -4,12 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600&display=swap" rel="stylesheet">
     <title>Kinesis</title>
 </head>
 <body>
+    
+    
+    <header>
+        <div class="back1">
+            <img src="./img/Logo-Kinesis.png" alt="">
+        
+        </div>
+        <div class="back2">
+            <nav>
+                <a href="">Nosotros</a>
+                <a href="">Clases</a>
+                <a href="">Contacto</a>
+            </nav>
+        </div>
+        
+
+    </header>
+    <main>
+        <section>
+            <img src="" alt="">
+            <h4>Nosotros</h4>
+        </section>
+        <form action="enviar.php" method="post">
+            <h2 id="Contacto">¡Contacto!</h2>
+            <div class="f_inputs">
+                <input type="text" name="name" placeholder="Nombre y Apellido" required="">
+                <input type="text" name="mail" placeholder="email" required="">
+                <input type="text" name="phone" placeholder="Número de Contacto" required="">
+            </div>
+            <div class="f_terms">
+                <a href="./Pages/E-Terminos.html">Acepto términos y condiciones.</a>
+                <input class="f_terms_input" type="checkbox" data-requiered="1" name="Terminos y Condiciones" id="Terminos y Condiciones" required="">
+            </div>
+            <div>   
+                <button type="submit" name="enviar">Enviar</button>
+            </div>
+            <h4><strong>+57 312 3256084</strong></h4>
+            <a href="https://wa.link/m9n600" target="_blank" rel="noopener">
+                <img src="./img/whatsapp1.png" alt="Kinesis"></a>
+        </form>
+    </main>
     
 </body>
 </html>
